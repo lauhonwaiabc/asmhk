@@ -28,7 +28,7 @@ window.ASM_DATA_COMMITTEE = {
       },
       {
         "name": "Dr. IP Yiu Chung, Jeffrey",
- n       "hospital": "Hong Kong Children’s Hospital"
+        "hospital": "Hong Kong Children’s Hospital"
       },
       {
         "name": "Dr. KO Ching, Jane",
