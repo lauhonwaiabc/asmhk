@@ -81,10 +81,6 @@ window.ASM_DATA_COMMITTEE = {
     ],
     "advisors": [
       {
-        "name": "Dr. CHAN Chi Wing, Timmy",
-        "note": "Nominated by the Society of Anaesthetists of Hong Kong"
-      },
-      {
         "name": "Dr. CHAN Kin Cheong, Simon",
         "note": "Nominated by the Hong Kong College of Anaesthesiologists"
       },
