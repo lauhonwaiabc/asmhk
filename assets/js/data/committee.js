@@ -6,7 +6,7 @@ window.ASM_DATA_COMMITTEE = {
       "hospital": "Tuen Mun Hospital"
     },
     "vice": {
-      "name": "Dr. TANG Chi Chun, Geoffrey",
+      "name": "",
       "hospital": "Prince of Wales Hospital"
     },
     "treasurer": {
@@ -28,7 +28,7 @@ window.ASM_DATA_COMMITTEE = {
       },
       {
         "name": "Dr. IP Yiu Chung, Jeffrey",
-        "hospital": "Hong Kong Children’s Hospital"
+ n       "hospital": "Hong Kong Children’s Hospital"
       },
       {
         "name": "Dr. KO Ching, Jane",
@@ -83,6 +83,10 @@ window.ASM_DATA_COMMITTEE = {
       {
         "name": "Dr. CHAN Kin Cheong, Simon",
         "note": "Nominated by the Hong Kong College of Anaesthesiologists"
+      },
+      {
+        "name": "",
+        "note": "Nominated by the Society of Anaesthetists of Hong Kong"
       },
       {
         "name": "Dr. CHAN Kai Wai, Kevin",
