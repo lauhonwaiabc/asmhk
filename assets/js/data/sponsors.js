@@ -15,7 +15,6 @@ window.ASM_DATA_SPONSORS = {
       "Recognition in the e-programme, website and on-site signage, in line with the agreed package.",
       "Multi-year options for partners who wish to build a continuing relationship with the meeting."
     ],
-    "packagesNote": "All sponsored content is subject to approval by the Scientific Programme Committee. One sponsored slot per half-day; topic and disclosure are agreed in writing.",
     "exhibitionIntro": "The healthcare industry exhibition runs alongside the scientific sessions at the Hopewell Hotel. Twenty booths are planned across the exhibition area.",
     "exhibitionBullets": [
       "Twenty booths, including premium and standard positions.",

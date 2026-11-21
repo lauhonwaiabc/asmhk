@@ -6,7 +6,7 @@ window.ASM_DATA_COMMITTEE = {
       "hospital": "Tuen Mun Hospital"
     },
     "vice": {
-      "name": "(TBC)",
+      "name": "Dr. _",
       "hospital": "Prince of Wales Hospital"
     },
     "treasurer": {
@@ -85,8 +85,8 @@ window.ASM_DATA_COMMITTEE = {
         "note": "Nominated by the Hong Kong College of Anaesthesiologists"
       },
       {
-        "name": "(TBC)",
-        "note": "Nominated by the Society of Anaesthetists of Hong Kong"
+        "name": "Dr. _",
+        "note": "Nominated by the Society of Anaethetist of Hong Kong"
       },
       {
         "name": "Dr. CHAN Kai Wai, Kevin",

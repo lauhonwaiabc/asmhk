@@ -911,8 +911,6 @@
     if (pdf) pdf.style.display = "none";
     fillList("sponsorshipWhy", info.whyPartner);
     fillList("sponsorshipExhibitionBullets", info.exhibitionBullets);
-    var packagesNote = doc.getElementById("sponsorshipPackagesNote");
-    if (packagesNote) packagesNote.textContent = info.packagesNote || "";
     var exhibitionIntro = doc.getElementById("sponsorshipExhibitionIntro");
     if (exhibitionIntro) exhibitionIntro.textContent = info.exhibitionIntro || "";
     var floorplanNote = doc.getElementById("sponsorshipFloorplanNote");
