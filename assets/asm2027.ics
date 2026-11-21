@@ -19,8 +19,8 @@ DTSTART;TZID=Asia/Hong_Kong:20271030T084500
 DTEND;TZID=Asia/Hong_Kong:20271031T180000
 SUMMARY:Annual Scientific Meeting in Anaesthesiology 2027
 LOCATION:Hopewell Hotel\, 15 Kennedy Road\, Wan Chai\, Hong Kong
-DESCRIPTION:Theme: Anaesthesia Intelligence. https://www.anaesthesiology.hk/2027/
-URL:https://www.anaesthesiology.hk/2027/
+DESCRIPTION:Theme: Anaesthesia Intelligence. https://asmhk.org/
+URL:https://asmhk.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:asm2027-preconf@anaesthesiology.hk
@@ -29,7 +29,7 @@ DTSTART;VALUE=DATE:20271029
 DTEND;VALUE=DATE:20271030
 SUMMARY:ASM 2027 Pre-conference Workshops
 LOCATION:Salon 2-3\, Crystal Court\, Hopewell Hotel\, Hong Kong
-DESCRIPTION:Pre-conference workshops: Agentic AI; Airway; PBL 1 and 2. https://www.anaesthesiology.hk/2027/programme.html
-URL:https://www.anaesthesiology.hk/2027/programme.html
+DESCRIPTION:Pre-conference workshops: Agentic AI; Airway; PBL 1 and 2. https://asmhk.org/pages/programme.html
+URL:https://asmhk.org/pages/programme.html
 END:VEVENT
 END:VCALENDAR

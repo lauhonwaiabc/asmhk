@@ -1162,7 +1162,7 @@
       finish();
     };
     logo.onerror = finish;
-    logo.src = (window.ASM_URL ? window.ASM_URL("images/asm2027-logo.png") : "images/asm2027-logo.png") + "?v=20261116logo3";
+    logo.src = (window.ASM_URL ? window.ASM_URL("images/asm2027-logo.png") : "images/asm2027-logo.png") + "?v=20261121d";
     global.setTimeout(finish, 1200);
   }
 

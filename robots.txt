@@ -1,3 +1,2 @@
-# Draft site — do not index while content is unconfirmed.
 User-agent: *
-Disallow: /
+Allow: /

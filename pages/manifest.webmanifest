@@ -1,7 +1,7 @@
 {
   "name": "ASM 2027 \u2014 Event app",
   "short_name": "ASM 2027",
-  "description": "Programme, Free Paper and ePoster, faculty, Stamp Collection, personal schedule and event information for the Annual Scientific Meeting in Anaesthesiology 2027.",
+  "description": "Programme, Free Paper and e-Poster, faculty, Stamp Collection, personal schedule and event information for the Annual Scientific Meeting in Anaesthesiology 2027.",
   "start_url": "./app.html",
   "scope": "./",
   "display": "standalone",

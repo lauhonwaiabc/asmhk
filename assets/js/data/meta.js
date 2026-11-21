@@ -10,7 +10,7 @@ window.ASM_DATA_META = {
     "preConference": "29 October 2027",
     "venue": "Crystal Court, 19/F and Salons, 20/F, Hopewell Hotel, 15 Kennedy Road, Wan Chai, Hong Kong",
     "language": "English",
-    "website": "https://www.anaesthesiology.hk/2027/",
+    "website": "https://asmhk.org/",
     "venueShort": "Hopewell Hotel, Hong Kong",
     "venueName": "Hopewell Hotel",
     "venueAddress": "Crystal Court, 19/F and Salons, 20/F, 15 Kennedy Road, Wan Chai, Hong Kong",

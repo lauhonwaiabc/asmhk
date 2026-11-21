@@ -71,7 +71,7 @@
     var vh = win.innerHeight || root.clientHeight;
     for (var i = 0; i < banners.length; i++) {
       var banner = banners[i];
-      var state = banner.state;
+      var state = banner;
       var rect = banner.el.getBoundingClientRect();
       if (rect.bottom < -120 || rect.top > vh + 120) continue;
 

@@ -57,7 +57,7 @@ window.ASM_DATA_SLOTS = {
         "sessions": [
           { "id": "peri", "title": "Perioperative Medicine Symposium", "room": "Crystal Court II", "code": "R9P3" },
           { "id": "neur", "title": "Neuroanaesthesia Symposium", "room": "Crystal Court I", "code": "V2B7" },
-          { "id": "epos", "title": "ePoster Evaluation Session", "room": "Pre-function area", "code": "F5J8" },
+          { "id": "epos", "title": "e-Poster Evaluation Session", "room": "Pre-function area", "code": "F5J8" },
           { "id": "w-lead", "title": "Medicolegal and Communication Workshop", "room": "Salon 3–4", "code": "D6K4" }
         ]
       },

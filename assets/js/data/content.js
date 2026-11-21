@@ -1,4 +1,4 @@
-/* ASM 2027 data component — Page content, calls and ePoster guidance (no-demo) */
+/* ASM 2027 data component — Page content, calls and e-Poster guidance (no-demo) */
 window.ASM_DATA_CONTENT = {
   "welcome": {
     "paragraphs": [
@@ -65,7 +65,7 @@ window.ASM_DATA_CONTENT = {
       "date": "2027-10-30",
       "label": "30 October 2027",
       "title": "ASM 2027 Day 1",
-      "detail": "ePoster Evaluation Session – 14:00–15:30 – Pre-function area"
+      "detail": "e-Poster Evaluation Session – 14:00–15:30 – Pre-function area"
     },
     {
       "date": "2027-10-31",
@@ -75,21 +75,21 @@ window.ASM_DATA_CONTENT = {
     }
   ],
   "submissionInfo": {
-    "intro": "Every abstract that meets the guidelines is accepted and displayed as an ePoster. At submission you choose one of two options: ePoster only, or ePoster plus consideration for the Free Paper Presentation. On Day 1, judges review all accepted ePosters and shortlist presenters for the Day 2 Free Paper Presentation. The Formal Project Prize is a separate internal HKCA process and is not part of this open abstract call.",
+    "intro": "Every abstract that meets the guidelines is accepted and displayed as an e-Poster. At submission you choose one of two options: e-Poster only, or e-Poster plus consideration for the Free Paper Presentation. On Day 1, judges review all accepted e-Posters and shortlist presenters for the Day 2 Free Paper Presentation. The Formal Project Prize is a separate internal HKCA process and is not part of this open abstract call.",
     "compare": [
       {
-        "route": "ePoster + Free Paper consideration",
-        "format": "ePoster (all accepted) + possible Free Paper shortlist",
-        "bestFor": "Authors who would like their accepted ePoster to be considered for the Free Paper Presentation.",
-        "review": "All accepted ePosters are reviewed by judges at the Day 1 ePoster Evaluation Session. Shortlisted presenters are invited to the Day 2 Free Paper Presentation.",
-        "output": "ePoster in the gallery and on site; if shortlisted, a Free Paper Presentation on Day 2 at 11:00–12:30 in Salon 1–2."
+        "route": "e-Poster + Free Paper consideration",
+        "format": "e-Poster (all accepted) + possible Free Paper shortlist",
+        "bestFor": "Authors who would like their accepted e-Poster to be considered for the Free Paper Presentation.",
+        "review": "All accepted e-Posters are reviewed by judges at the Day 1 e-Poster Evaluation Session. Shortlisted presenters are invited to the Day 2 Free Paper Presentation.",
+        "output": "e-Poster in the gallery and on site; if shortlisted, a Free Paper Presentation on Day 2 at 11:00–12:30 in Salon 1–2."
       },
       {
-        "route": "ePoster only",
-        "format": "ePoster (all accepted)",
-        "bestFor": "Authors who want their work displayed as an ePoster without entering the Free Paper shortlist.",
-        "review": "The abstract is accepted after a compliance check and displayed as an ePoster. It is not considered for the Free Paper Presentation.",
-        "output": "ePoster in the website and app gallery and in the on-site ePoster area."
+        "route": "e-Poster only",
+        "format": "e-Poster (all accepted)",
+        "bestFor": "Authors who want their work displayed as an e-Poster without entering the Free Paper shortlist.",
+        "review": "The abstract is accepted after a compliance check and displayed as an e-Poster. It is not considered for the Free Paper Presentation.",
+        "output": "e-Poster in the website and app gallery and in the on-site e-Poster area."
       },
       {
         "route": "Formal Project Prize",
@@ -102,9 +102,9 @@ window.ASM_DATA_CONTENT = {
     "sharedGuidelines": [
       "Submit in English through the online portal. The abstract limit is 300 words, with up to one table or figure.",
       "Each presenting author may submit up to two abstracts.",
-      "Every abstract that meets the guidelines is accepted as an ePoster.",
-      "At submission, choose either ePoster only or ePoster plus consideration for the Free Paper Presentation.",
-      "All accepted ePosters are reviewed by judges on Day 1. Shortlisted presenters are invited to present in the Day 2 Free Paper Presentation.",
+      "Every abstract that meets the guidelines is accepted as an e-Poster.",
+      "At submission, choose either e-Poster only or e-Poster plus consideration for the Free Paper Presentation.",
+      "All accepted e-Posters are reviewed by judges on Day 1. Shortlisted presenters are invited to present in the Day 2 Free Paper Presentation.",
       "The presenting author must register as a paid delegate by the stated deadline for the abstract to remain in the programme.",
       "Notification and format allocation are sent by email to the presenting author.",
       "All accepted abstracts are published in the e-programme or abstract book, subject to author consent.",
@@ -116,32 +116,32 @@ window.ASM_DATA_CONTENT = {
       "Relevance to anaesthesia, intensive care, pain or perioperative medicine",
       "Clarity of the question, methods and conclusions",
       "Likely value to the ASM audience",
-      "All accepted ePosters are displayed. Only abstracts submitted for Free Paper consideration can be shortlisted for the Day 2 Free Paper Presentation."
+      "All accepted e-Posters are displayed. Only abstracts submitted for Free Paper consideration can be shortlisted for the Day 2 Free Paper Presentation."
     ]
   },
   "freePaperInfo": {
-    "intro": "The Free Paper Presentation is the oral stage for shortlisted ePosters. All accepted ePosters are reviewed by judges on Day 1; shortlisted presenters are invited to present on Day 2. There is no separate abstract submission for the Free Paper session.",
+    "intro": "The Free Paper Presentation is the oral stage for shortlisted e-Posters. All accepted e-Posters are reviewed by judges on Day 1; shortlisted presenters are invited to present on Day 2. There is no separate abstract submission for the Free Paper session.",
     "format": [
       "Oral presentation in Salon 1–2 on Sunday 31 October 2027, 11:00–12:30.",
       "Ten minutes for the presentation and five minutes for questions.",
       "Standard projection is 16:9. Upload your slides at the speaker preview desk before the session.",
-      "Presentations should follow the ePoster abstract: question, methods, results and conclusion.",
+      "Presentations should follow the e-Poster abstract: question, methods, results and conclusion.",
       "A chairperson and timekeeper will keep the session to schedule.",
       "Prizes are announced at the Closing Ceremony on Day 2."
     ],
     "eligibility": [
-      "Any accepted ePoster may be considered if the presenting author chose Free Paper consideration at submission.",
-      "Authors who chose ePoster only are not shortlisted for the Free Paper Presentation.",
+      "Any accepted e-Poster may be considered if the presenting author chose Free Paper consideration at submission.",
+      "Authors who chose e-Poster only are not shortlisted for the Free Paper Presentation.",
       "The presenting author must register for the meeting as a paid delegate.",
       "Work may have been presented elsewhere, but this must be declared at submission.",
       "Submissions are welcome whether or not they form part of a HKCA Formal Project."
     ],
     "review": [
-      "Judges review all accepted ePosters at the Day 1 ePoster Evaluation Session, Saturday 30 October 2027, 14:00–15:30, Pre-function area.",
-      "The panel scores eligible ePosters on quality, relevance, clarity and originality.",
+      "Judges review all accepted e-Posters at the Day 1 e-Poster Evaluation Session, Saturday 30 October 2027, 14:00–15:30, Pre-function area.",
+      "The panel scores eligible e-Posters on quality, relevance, clarity and originality.",
       "Shortlisted presenters are invited to the Day 2 Free Paper Presentation.",
       "The shortlist is announced on site after the Day 1 evaluation; it is not published in the static app.",
-      "Authors who chose ePoster only remain in the ePoster gallery.",
+      "Authors who chose e-Poster only remain in the e-Poster gallery.",
       "Final instructions are sent by email to shortlisted presenters."
     ],
     "prizes": [
@@ -221,7 +221,6 @@ window.ASM_DATA_CONTENT = {
     "contact": "Enquiries about the Formal Project process should be directed to the HKCA Formal Project Officer through the College secretariat."
   },
   "formalProjectCallInfo": {
-    "intro": "The Formal Project Prize is not an open abstract route. Submitted HKCA Formal Projects are audited internally and processed for recommendation to the Formal Project Officer before presenters are invited.",
     "eligibility": [
       "HKCA trainees who have submitted a Formal Project through the College process.",
       "The project must have completed the internal audit and review steps required by the College.",
@@ -236,44 +235,43 @@ window.ASM_DATA_CONTENT = {
       "Invited presenters are scheduled into the Formal Project Prize Session."
     ],
     "notes": [
-      "There is no separate open call for the Formal Project Prize.",
       "Submitting to the Free Paper Presentation does not affect Formal Project evaluation.",
       "The College's decision on the shortlist and prizes is final.",
       "Queries about the internal process should go to the secretariat or the Formal Project Officer."
     ]
   },
   "eposterInfo": {
-    "intro": "Every abstract that meets the guidelines is accepted and displayed as an ePoster. At submission, choose either ePoster only or ePoster plus consideration for the Free Paper Presentation. On Day 1, judges review all accepted ePosters and shortlist presenters for the Day 2 Free Paper Presentation.",
+    "intro": "Every abstract that meets the guidelines is accepted and displayed as an e-Poster. At submission, choose either e-Poster only or e-Poster plus consideration for the Free Paper Presentation.",
     "formats": [
       {
-        "name": "ePoster only",
-        "detail": "Your abstract is accepted and displayed as an ePoster in the website gallery, app and on-site ePoster area. It is not considered for the Free Paper Presentation."
+        "name": "e-Poster only",
+        "detail": "Your abstract is accepted and displayed as an e-Poster in the website gallery, app and on-site e-Poster area. It is not considered for the Free Paper Presentation."
       },
       {
-        "name": "ePoster + Free Paper consideration",
-        "detail": "Your accepted ePoster is displayed in the gallery and reviewed by judges on Day 1. If shortlisted, you present in the Day 2 Free Paper Presentation."
+        "name": "e-Poster + Free Paper consideration",
+        "detail": "Your accepted e-Poster is displayed in the gallery and reviewed by judges on Day 1. If shortlisted, you present in the Day 2 Free Paper Presentation."
       }
     ],
     "steps": [
       {
         "title": "Submit one abstract and choose your option",
-        "text": "Use the online abstract form. Choose ePoster only, or ePoster plus consideration for the Free Paper Presentation."
+        "text": "Use the online abstract form. Choose e-Poster only, or e-Poster plus consideration for the Free Paper Presentation."
       },
       {
         "title": "Compliance check",
-        "text": "Every abstract that meets the guidelines is accepted as an ePoster. The check covers structure, consent, disclosure and patient confidentiality."
+        "text": "Every abstract that meets the guidelines is accepted as an e-Poster. The check covers structure, consent, disclosure and patient confidentiality."
       },
       {
-        "title": "Prepare the ePoster",
+        "title": "Prepare the e-Poster",
         "text": "After acceptance, upload a single-page PDF in the supplied template by the stated deadline."
       },
       {
         "title": "Publish and display",
-        "text": "ePosters appear in the website gallery, the app and the on-site ePoster area with a searchable title, authors, affiliation and category."
+        "text": "e-Posters appear in the website gallery, the app and the on-site e-Poster area with a searchable title, authors, affiliation and category."
       },
       {
-        "title": "Day 1: ePoster Evaluation Session",
-        "text": "On Saturday 30 October 2027, 14:00–15:30 in the Pre-function area, judges review all accepted ePosters."
+        "title": "Day 1: e-Poster Evaluation Session",
+        "text": "On Saturday 30 October 2027, 14:00–15:30 in the Pre-function area, judges review all accepted e-Posters."
       },
       {
         "title": "Shortlist for Day 2",
@@ -287,10 +285,10 @@ window.ASM_DATA_CONTENT = {
     "specs": [
       "One page, A0 portrait proportions (841 – 1189 mm), exported as PDF at 150 dpi or higher.",
       "Include title, authors, affiliations, introduction, methods, results, conclusion and disclosure.",
-      "Use the ASM 2027 ePoster template. Keep body text at least 24 pt and headings at least 36 pt.",
+      "Use the ASM 2027 e-Poster template. Keep body text at least 24 pt and headings at least 36 pt.",
       "Remove patient-identifiable information and obtain consent for any clinical image.",
       "Maximum file size 20 MB. Name the file with your abstract number, for example ASM27-0123.pdf.",
-      "Audio is not accepted. Submit a static PDF ePoster only."
+      "Audio is not accepted. Submit a static PDF e-Poster only."
     ],
     "awards": [
       "Best Free Paper Presentation, selected from the Day 2 Free Paper presenters"
@@ -310,5 +308,5 @@ window.ASM_DATA_CONTENT = {
       "Critical care and trauma"
     ]
   },
-  "eposterGalleryIntro": "Accepted ePosters are published in the gallery and in the event app. Browse by category or search by title, author, affiliation or keyword."
+  "eposterGalleryIntro": "Browse accepted e-Posters by category, or search by title, author, affiliation or keyword."
 };

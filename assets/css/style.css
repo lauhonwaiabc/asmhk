@@ -828,7 +828,7 @@ a.fac-card:hover strong { text-decoration: underline; }
   a { color: #000; text-decoration: none; }
 }
 
-/* ePosters ----------------------------------------------------------- */
+/* e-Posters ----------------------------------------------------------- */
 .eposter-promo {
   display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 28px;
   align-items: center; border: 1px solid var(--line); background: linear-gradient(120deg, #f3f8fb 0%, #ffffff 60%);
@@ -843,7 +843,7 @@ a.fac-card:hover strong { text-decoration: underline; }
 .eposter-stats dt { font-size: 11px; letter-spacing: .07em; text-transform: uppercase; color: #53707c; font-weight: 700; }
 .eposter-stats dd { margin: 4px 0 0; font-size: 15px; font-weight: 700; color: var(--navy); line-height: 1.35; }
 
-.format-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 12px 0 28px; }
+.format-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 12px 0 28px; }
 .format-card { border: 1px solid var(--line); background: #fff; padding: 18px; }
 .format-num { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .08em; color: var(--teal-ink); margin-bottom: 6px; }
 .format-card h3 { margin: 0 0 6px; font-size: 15px; color: var(--navy); }
@@ -986,7 +986,7 @@ a.fac-card:hover strong { text-decoration: underline; }
 @media (max-width: 640px) {
   .welcome-logo { width: min(100%, 380px); margin-bottom: 16px; }
 }
-/* ePoster Presentation Prize badges --------------------------------- */
+/* e-Poster Presentation Prize badges --------------------------------- */
 .eposter-card-link { position: relative; }
 .eposter-badge {
   display: inline-block; margin-top: 8px; padding: 2px 7px;
@@ -1007,7 +1007,7 @@ a.fac-card:hover strong { text-decoration: underline; }
 .session-panel-step + .session-panel-step { margin-top: 14px; }
 .session-panel-step > .detail-type { display: inline-block; margin-bottom: 4px; }
 
-/* PDF ePoster viewer ------------------------------------------------ */
+/* PDF e-Poster viewer ------------------------------------------------ */
 .eposter-badge--pdf { background: #eef2fa; color: #2f5e9e; border-color: #d6e2f5; }
 .modal-pdf {
   margin: 16px 0 18px; padding: 8px; background: #f7fbfb;

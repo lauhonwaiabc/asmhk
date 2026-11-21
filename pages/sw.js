@@ -1,7 +1,7 @@
 /* ASM 2027 event app - service worker (prototype) */
 "use strict";
 
-var CACHE = "asm2027-v104";
+var CACHE = "asm2027-v105";
 var SHELL = [
   "./app.html",
   "./programme.html",

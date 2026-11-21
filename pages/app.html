@@ -4,31 +4,30 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ASM 2027 &mdash; Event app</title>
-<meta name="description" content="Programme, Free Paper and ePoster, faculty, slot attendance, personal schedule and event information for the Annual Scientific Meeting in Anaesthesiology 2027.">
+<meta name="description" content="Programme, Free Paper and e-Poster, faculty, slot attendance, personal schedule and event information for the Annual Scientific Meeting in Anaesthesiology 2027.">
 <meta name="theme-color" content="#123f63">
-<meta name="robots" content="noindex, nofollow">
-<link rel="manifest" href="manifest.webmanifest?v=20261121terms">
-<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png?v=20261116logo3">
+<link rel="manifest" href="manifest.webmanifest?v=20261121d">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png?v=20261121d">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="ASM 2027">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="icon" href="../assets/images/favicon.svg?v=20261116logo3" type="image/svg+xml">
-<link rel="icon" href="../assets/favicon.ico?v=20261116logo3" sizes="any">
-<link rel="icon" href="../assets/icons/favicon-32.png?v=20261116logo3" sizes="32x32" type="image/png">
-<link rel="icon" href="../assets/icons/favicon-16.png?v=20261116logo3" sizes="16x16" type="image/png">
+<link rel="icon" href="../assets/images/favicon.svg?v=20261121d" type="image/svg+xml">
+<link rel="icon" href="../assets/favicon.ico?v=20261121d" sizes="any">
+<link rel="icon" href="../assets/icons/favicon-32.png?v=20261121d" sizes="32x32" type="image/png">
+<link rel="icon" href="../assets/icons/favicon-16.png?v=20261121d" sizes="16x16" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/style.css?v=20261121options">
-<link rel="stylesheet" href="../assets/css/app.css?v=20261121g">
+<link rel="stylesheet" href="../assets/css/style.css?v=20261121d">
+<link rel="stylesheet" href="../assets/css/app.css?v=20261121d">
 </head>
 <body class="app">
 <a class="skip-link" href="#appMain">Skip to content</a>
 
 <header class="app-header">
   <a class="app-brand" href="#/home" aria-label="ASM 2027 home">
-    <img class="app-brand-logo" src="../assets/images/asm2027-logo.png?v=20261116logo3" alt="" width="40" height="40">
+    <img class="app-brand-logo" src="../assets/images/asm2027-logo.png?v=20261121d" alt="" width="40" height="40">
     <span class="app-brand-text">
       <span class="app-brand-name">ASM <em>2027</em></span>
       <small>Hong Kong &middot; 30&ndash;31 Oct</small>
@@ -73,7 +72,7 @@
       </a>
       <a class="app-menu-row" href="#/submission">
         <span class="app-menu-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></span>
-        <span class="app-menu-text"><strong>Submission</strong><small>Free Paper, ePoster &amp; Formal Project</small></span>
+        <span class="app-menu-text"><strong>Submission</strong><small>Free Paper, e-Poster &amp; Formal Project</small></span>
         <span class="app-menu-count" id="homeCountSubmission">0</span>
         <svg class="app-menu-go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
       </a>
@@ -146,28 +145,28 @@
 
   <section class="app-view" id="view-submission" aria-labelledby="title-submission" hidden>
     <h1 class="app-title" id="title-submission">Submission</h1>
-    <p class="app-subtitle">Free Paper, ePoster and Formal Project abstracts</p>
+    <p class="app-subtitle">Free Paper, e-Poster and Formal Project abstracts</p>
 
     <div class="app-chips app-subtabs app-subtabs--2" id="submissionTabs" role="group" aria-label="Choose a submission section">
-      <button type="button" data-sub="eposters" aria-pressed="true">Free Paper and ePoster</button>
+      <button type="button" data-sub="eposters" aria-pressed="true">Free Paper and e-Poster</button>
       <button type="button" data-sub="formal-project" aria-pressed="false">Formal Project Prize</button>
     </div>
 
     <div id="submissionPane-eposters">
     <div id="eposterPrizeInfo"></div>
 
-    <h2 class="app-group-title">Accepted ePosters</h2>
+    <h2 class="app-group-title">Accepted e-Posters</h2>
     <div class="app-toolbar">
       <div class="app-searchwrap">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         <label class="sr-only" for="eposterSearchApp">Search submissions</label>
-        <input class="app-search" id="eposterSearchApp" type="search" placeholder="Search ePosters" autocomplete="off">
+        <input class="app-search" id="eposterSearchApp" type="search" placeholder="Search e-Posters" autocomplete="off">
       </div>
       <div class="app-chips" id="eposterCats" role="group" aria-label="Filter by category"></div>
     </div>
     <p class="app-count" id="eposterCountApp" aria-live="polite"></p>
     <div class="app-list" id="eposterList"></div>
-    <p class="app-empty" id="eposterEmptyApp" hidden>No ePosters match your search.</p>
+    <p class="app-empty" id="eposterEmptyApp" hidden>No e-Posters match your search.</p>
     </div>
 
     <div id="submissionPane-formal-project" hidden>
@@ -321,7 +320,7 @@
   </section>
 
   <section class="app-view" id="view-eposter" hidden>
-    <button class="app-back" id="eposterBack" type="button" aria-label="Back to ePosters">&larr; Back</button>
+    <button class="app-back" id="eposterBack" type="button" aria-label="Back to e-Posters">&larr; Back</button>
     <div id="eposterDetail"></div>
   </section>
 
@@ -356,22 +355,22 @@
 
 <div class="app-toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="../assets/js/data/meta.js?v=20261121c"></script>
-<script src="../assets/js/data/content.js?v=20261121options"></script>
-<script src="../assets/js/data/committee.js?v=20261121c"></script>
-<script src="../assets/js/data/people.js?v=20261121c"></script>
-<script src="../assets/js/data/programme.js?v=20261121terms"></script>
-<script src="../assets/js/data/abstracts.js?v=20261121c"></script>
-<script src="../assets/js/data/registration.js?v=20261121c"></script>
-<script src="../assets/js/data/sponsors.js?v=20261121c"></script>
-<script src="../assets/js/data/contact.js?v=20261121c"></script>
-<script src="../assets/js/data/slots.js?v=20261121terms"></script>
+<script src="../assets/js/data/meta.js?v=20261121d"></script>
+<script src="../assets/js/data/content.js?v=20261121d"></script>
+<script src="../assets/js/data/committee.js?v=20261121d"></script>
+<script src="../assets/js/data/people.js?v=20261121d"></script>
+<script src="../assets/js/data/programme.js?v=20261121d"></script>
+<script src="../assets/js/data/abstracts.js?v=20261121d"></script>
+<script src="../assets/js/data/registration.js?v=20261121d"></script>
+<script src="../assets/js/data/sponsors.js?v=20261121d"></script>
+<script src="../assets/js/data/contact.js?v=20261121d"></script>
+<script src="../assets/js/data/slots.js?v=20261121d"></script>
 <script src="../assets/js/asm-data.js?v=20261121d"></script>
-<script src="../assets/js/qr.js?v=20261121c"></script>
-<script src="../assets/js/vendor/jsQR.min.js?v=20261121c" defer></script>
-<script src="../assets/js/connect.js?v=20261121f" defer></script>
-<script src="../assets/js/attendance.js?v=20261121g" defer></script>
-<script src="../assets/js/app.js?v=20261121terms" defer></script>
-<script src="../assets/js/pwa.js?v=20261116ae" defer></script>
+<script src="../assets/js/qr.js?v=20261121d"></script>
+<script src="../assets/js/vendor/jsQR.min.js?v=20261121d" defer></script>
+<script src="../assets/js/connect.js?v=20261121d" defer></script>
+<script src="../assets/js/attendance.js?v=20261121d" defer></script>
+<script src="../assets/js/app.js?v=20261121d" defer></script>
+<script src="../assets/js/pwa.js?v=20261121d" defer></script>
 </body>
 </html>
