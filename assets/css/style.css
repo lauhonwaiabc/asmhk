@@ -756,7 +756,8 @@ a.fac-card:hover strong { text-decoration: underline; }
 @media (max-width: 960px) {
   .faculty-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .exhibitor-list { columns: 2; }
-  .banner-inner { grid-template-columns: 1fr; min-height: 0; padding: 30px 0 34px; gap: 18px; }
+  .banner-inner { grid-template-columns: minmax(0, 1fr); min-height: 0; padding: 30px 0 34px; gap: 18px; }
+  .banner-copy, .banner-theme { min-width: 0; }
   .banner .banner-title { font-size: clamp(2.1rem, 6vw, 3.1rem); }
   .banner-theme { text-align: left; }
   .banner-theme .script { display: inline-block; margin-right: 12px; font-size: clamp(2.8rem, 8vw, 4.6rem); }
@@ -784,7 +785,7 @@ a.fac-card:hover strong { text-decoration: underline; }
   .prose > p { text-align: left; }
   .banner .banner-title { font-size: 2.05rem; }
   .banner-meta strong { font-size: 15px; }
-  .banner-theme .script { font-size: 3rem; }
+  .banner-theme .script { display: block; margin-right: 0; font-size: 2.75rem; }
   .box1 .deadline { font-size: 21px; }
   .btn5 { font-size: 17px; }
   .section-title { font-size: 1.75rem; }
@@ -827,7 +828,7 @@ a.fac-card:hover strong { text-decoration: underline; }
   a { color: #000; text-decoration: none; }
 }
 
-/* e-Posters ----------------------------------------------------------- */
+/* ePosters ----------------------------------------------------------- */
 .eposter-promo {
   display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 28px;
   align-items: center; border: 1px solid var(--line); background: linear-gradient(120deg, #f3f8fb 0%, #ffffff 60%);
@@ -985,7 +986,7 @@ a.fac-card:hover strong { text-decoration: underline; }
 @media (max-width: 640px) {
   .welcome-logo { width: min(100%, 380px); margin-bottom: 16px; }
 }
-/* e-Poster Presentation Prize badges --------------------------------- */
+/* ePoster Presentation Prize badges --------------------------------- */
 .eposter-card-link { position: relative; }
 .eposter-badge {
   display: inline-block; margin-top: 8px; padding: 2px 7px;
@@ -1006,7 +1007,7 @@ a.fac-card:hover strong { text-decoration: underline; }
 .session-panel-step + .session-panel-step { margin-top: 14px; }
 .session-panel-step > .detail-type { display: inline-block; margin-bottom: 4px; }
 
-/* PDF e-Poster viewer ------------------------------------------------ */
+/* PDF ePoster viewer ------------------------------------------------ */
 .eposter-badge--pdf { background: #eef2fa; color: #2f5e9e; border-color: #d6e2f5; }
 .modal-pdf {
   margin: 16px 0 18px; padding: 8px; background: #f7fbfb;

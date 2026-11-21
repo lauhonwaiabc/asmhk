@@ -210,7 +210,7 @@ body.app {
   .s-card { break-inside: avoid; }
 }
 
-/* e-Posters in the app ------------------------------------------------- */
+/* ePosters in the app ------------------------------------------------- */
 .app-eposter {
   border: 1px solid var(--line); border-left: 4px solid var(--teal); background: #fff;
   margin: 0 0 10px; border-radius: 4px; overflow: hidden;
@@ -1021,7 +1021,7 @@ body.app {
 .app-person-main small { font-size: 10px; line-height: 1.35; color: #5c7480; }
 .app-chevron { width: 18px; height: 18px; flex: 0 0 18px; color: #a9bbc2; }
 
-/* Person and e-Poster detail ---------------------------------------- */
+/* Person and ePoster detail ---------------------------------------- */
 .person-hero {
   display: flex; align-items: center; gap: 14px;
   background: #fff; border: 1px solid #dbe8ed; border-radius: 14px;
@@ -1179,7 +1179,7 @@ a.app-lecture-meta:hover { color: #0e4e77; text-decoration: underline; }
   font-size: 14px; font-weight: 700; letter-spacing: 0; text-transform: none;
   color: var(--navy); margin: 0 0 8px;
 }
-/* Presentation Prize badges (e-Posters) ------------------------------- */
+/* Presentation Prize badges (ePosters) ------------------------------- */
 .app-poster-badge {
   align-self: flex-start; margin-top: 2px;
   font-size: 9.5px; font-weight: 700; letter-spacing: .04em;
@@ -1344,7 +1344,7 @@ a.app-lecture-meta:hover { color: #0e4e77; text-decoration: underline; }
   .slotqr-big svg { width: 150mm; height: 150mm; }
 }
 
-/* PDF e-Posters and merged submission page --------------------------- */
+/* PDF ePosters and merged submission page --------------------------- */
 .app-poster-badge--pdf { background: #eef2fa; color: #2f5e9e; border-color: #d6e2f5; }
 .app-poster-pdf {
   margin: 0 0 14px; padding: 8px; background: #fff;

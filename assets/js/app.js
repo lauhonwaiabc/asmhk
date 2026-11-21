@@ -284,7 +284,7 @@
       '<span class="app-poster-num">' + esc(e.number) + " &middot; " + esc(e.category) + "</span>" +
       "<strong>" + esc(e.title) + "</strong>" +
       '<span class="app-poster-authors">' + esc(e.authors) + "</span>" +
-      (e.pdf ? '<span class="app-poster-badge app-poster-badge--pdf">PDF e-Poster</span>' : "") +
+      (e.pdf ? '<span class="app-poster-badge app-poster-badge--pdf">PDF ePoster</span>' : "") +
       '<span class="app-poster-cta">Read abstract <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></span>' +
     "</a>";
   }
@@ -311,8 +311,8 @@
     var list = data.eposters.filter(eposterMatches);
     el.eposterList.innerHTML = list.map(eposterCard).join("");
     el.eposterEmpty.hidden = list.length > 0;
-    el.eposterEmpty.textContent = data.eposters.length ? "No e-Posters match your search." : "e-Posters will be published here once accepted.";
-    el.eposterCount.textContent = data.eposters.length ? list.length + (list.length === 1 ? " e-Poster" : " e-Posters") +
+    el.eposterEmpty.textContent = data.eposters.length ? "No ePosters match your search." : "ePosters will be published here once accepted.";
+    el.eposterCount.textContent = data.eposters.length ? list.length + (list.length === 1 ? " ePoster" : " ePosters") +
       (eposterFilter.category === "All" ? "" : " in " + eposterFilter.category) : "Gallery opens " + (data.meta.eposterGalleryDate || "22 October 2027");
   }
 
@@ -375,7 +375,7 @@
     var facs = (session.facilitatorIds || []).map(personLink).filter(Boolean).join(", ");
     var summary = session.summary ? '<p class="detail-summary">' + esc(session.summary) + "</p>" : "";
     var related = "";
-    if (session.id === "epos") related = '<p class="app-hint"><a href="#/submission">View the accepted e-Posters &rarr;</a></p>';
+    if (session.id === "epos") related = '<p class="app-hint"><a href="#/submission">View the accepted ePosters &rarr;</a></p>';
     if (session.id === "fpap") related = '<p class="app-hint"><a href="#/programme">See the Free Paper session in the programme &rarr;</a></p>';
     var talks = "";
     if (session.talks && session.talks.length) {
@@ -879,8 +879,8 @@
       "</div>" +
       (e.pdf
         ? '<div class="app-poster-pdf">' +
-            '<iframe src="' + esc(U(e.pdf)) + '#view=FitH" title="PDF e-Poster: ' + esc(e.title) + '" loading="lazy"></iframe>' +
-            '<a class="app-btn app-btn--ghost" href="' + esc(U(e.pdf)) + '" target="_blank" rel="noopener">Open PDF e-Poster</a>' +
+            '<iframe src="' + esc(U(e.pdf)) + '#view=FitH" title="PDF ePoster: ' + esc(e.title) + '" loading="lazy"></iframe>' +
+            '<a class="app-btn app-btn--ghost" href="' + esc(U(e.pdf)) + '" target="_blank" rel="noopener">Open PDF ePoster</a>' +
           '</div>'
         : "") +
       (meta.length ? '<dl class="detail-list">' + meta.join("") + "</dl>" : "") +

@@ -55,7 +55,7 @@
 
   function sessionPage(s) {
     if (!s) return null;
-    if (s.id === "epos") return { href: "e-posters.html", label: "E-Poster gallery and evaluation details" };
+    if (s.id === "epos") return { href: "e-posters.html", label: "ePoster gallery and evaluation details" };
     if (s.id === "fpap") return { href: "e-posters.html#free-paper", label: "Free Paper Presentation and the Day 1 evaluation" };
     if (s.id === "fprj") return { href: "formal-project-prize.html", label: "Formal Project Prize session details and abstracts" };
     return null;
@@ -173,7 +173,7 @@
       '<a class="btn btn-secondary" href="meeting-information.html">Meeting information</a>';
   }
 
-  /* e-Posters ----------------------------------------------------------- */
+  /* ePosters ----------------------------------------------------------- */
   var eposterFilter = { q: "", category: "All" };
 
   function eposterMatch(e) {
@@ -192,7 +192,7 @@
         '<p class="eposter-authors">' + esc(e.authors) + "</p>" +
         '<p class="eposter-aff">' + esc(e.affiliation) + "</p>" +
         '<span class="eposter-chip">' + esc(e.category) + "</span>" +
-        (e.pdf ? '<span class="eposter-badge eposter-badge--pdf">PDF e-Poster</span>' : "") +
+        (e.pdf ? '<span class="eposter-badge eposter-badge--pdf">PDF ePoster</span>' : "") +
       "</a></article>";
   }
 
@@ -204,10 +204,10 @@
     var empty = doc.getElementById("eposterEmpty");
     if (empty) {
       empty.hidden = list.length > 0;
-      empty.textContent = D.eposters.length ? "No e-Posters match your search." : "e-Posters will be published here once accepted.";
+      empty.textContent = D.eposters.length ? "No ePosters match your search." : "ePosters will be published here once accepted.";
     }
     var count = doc.getElementById("eposterCount");
-    if (count) count.textContent = D.eposters.length ? list.length + (list.length === 1 ? " e-Poster" : " e-Posters") +
+    if (count) count.textContent = D.eposters.length ? list.length + (list.length === 1 ? " ePoster" : " ePosters") +
       (eposterFilter.category === "All" ? "" : " in " + eposterFilter.category) : "Gallery opens " + (D.meta.eposterGalleryDate || "22 October 2027");
   }
 
@@ -231,14 +231,14 @@
     }).join("");
 
     var dateRows = [
-      { label: "Abstract submission opens", date: m.abstractOpen, note: "Choose oral, e-Poster, or either format" },
+      { label: "Abstract submission opens", date: m.abstractOpen, note: "Choose ePoster only or Free Paper consideration" },
       { label: "Abstract submission deadline", date: m.abstractDeadline, note: "Abstract and preferred format" },
       { label: "Notification of acceptance", date: m.notification, note: "Final format confirmed by email" },
-      { label: "e-Poster file deadline", date: m.eposterFileDeadline, note: "PDF upload through the submission portal" },
-      { label: "e-Poster gallery opens", date: m.eposterGalleryDate, note: "Website and event app" },
-      { label: "E-Poster Evaluation Session", date: m.eposterEvaluationDate || "30 October 2027", note: (m.eposterEvaluationTime || "14:00–15:30") + " · " + (m.eposterEvaluationVenue || "Pre-function area") },
+      { label: "ePoster file deadline", date: m.eposterFileDeadline, note: "PDF upload through the submission portal" },
+      { label: "ePoster gallery opens", date: m.eposterGalleryDate, note: "Website and event app" },
+      { label: "ePoster Evaluation Session", date: m.eposterEvaluationDate || "30 October 2027", note: (m.eposterEvaluationTime || "14:00–15:30") + " · " + (m.eposterEvaluationVenue || "Pre-function area") },
       { label: "Free Paper Presentation", date: m.freePaperDate || "31 October 2027", note: (m.freePaperTime || "11:00–12:30") + " · " + (m.freePaperVenue || "Salon 1–2") },
-      { label: "On-site e-Poster viewing", date: m.eposterOnsite, note: "Digital lounges and app" }
+      { label: "On-site ePoster viewing", date: m.eposterOnsite, note: "Digital lounges and app" }
     ];
     var dates = doc.getElementById("eposterDates");
     if (dates) dates.innerHTML = dateRows.map(function (d) {
@@ -300,15 +300,15 @@
       '<p class="modal-meta"><strong>Presenter:</strong> ' + esc(e.presenter) + "</p>" +
       (e.pdf
         ? '<div class="modal-pdf">' +
-            '<iframe src="' + esc(U(e.pdf)) + '#view=FitH" title="PDF e-Poster: ' + esc(e.title) + '" loading="lazy"></iframe>' +
-            '<p class="modal-pdf-link"><a href="' + esc(U(e.pdf)) + '" target="_blank" rel="noopener">Open PDF e-Poster in a new tab</a></p>' +
+            '<iframe src="' + esc(U(e.pdf)) + '#view=FitH" title="PDF ePoster: ' + esc(e.title) + '" loading="lazy"></iframe>' +
+            '<p class="modal-pdf-link"><a href="' + esc(U(e.pdf)) + '" target="_blank" rel="noopener">Open PDF ePoster in a new tab</a></p>' +
           '</div>'
         : "") +
       "<h3>Abstract</h3><p>" + esc(e.abstract) + "</p>" +
       '<p class="modal-meta"><strong>Keywords:</strong> ' + esc((e.keywords || []).join(", ")) + "</p>" +
       (e.award ? '<p class="modal-meta"><strong>Award:</strong> ' + esc(e.award) + "</p>" : "") +
-      '<p class="modal-meta"><strong>Cite this e-Poster:</strong> ' + esc(e.authors) + ". " + esc(e.title) +
-      ". ASM 2027 e-Poster " + esc(e.number) + ".</p>";
+      '<p class="modal-meta"><strong>Cite this ePoster:</strong> ' + esc(e.authors) + ". " + esc(e.title) +
+      ". ASM 2027 ePoster " + esc(e.number) + ".</p>";
     showModal(html);
   }
 
@@ -322,17 +322,17 @@
   function dateRows(kind) {
     var m = D.meta;
     var rows = [
-      { label: "Submission opens", date: m.abstractOpen, note: "Choose e-Poster only or Free Paper consideration" },
+      { label: "Submission opens", date: m.abstractOpen, note: "Choose ePoster only or Free Paper consideration" },
       { label: "Abstract deadline", date: m.abstractDeadline, note: "Main call closes" },
       { label: "Notification of acceptance", date: m.notification, note: "By email to the presenting author" },
       { label: "Presenting author registration deadline", date: m.presentingDeadline, note: "Required to remain in the programme" }
     ];
     if (kind === "overview" || kind === "eposter") {
-      rows.push({ label: "e-Poster file deadline", date: m.eposterFileDeadline, note: "Upload the single-page PDF" });
-      rows.push({ label: "e-Poster gallery opens", date: m.eposterGalleryDate, note: "Website and event app" });
+      rows.push({ label: "ePoster file deadline", date: m.eposterFileDeadline, note: "Upload the single-page PDF" });
+      rows.push({ label: "ePoster gallery opens", date: m.eposterGalleryDate, note: "Website and event app" });
     }
     if (kind === "overview" || kind === "free") {
-      rows.push({ label: "E-Poster Evaluation Session", date: m.eposterEvaluationDate || "30 October 2027", note: (m.eposterEvaluationTime || "14:00–15:30") + " · " + (m.eposterEvaluationVenue || "Pre-function area") });
+      rows.push({ label: "ePoster Evaluation Session", date: m.eposterEvaluationDate || "30 October 2027", note: (m.eposterEvaluationTime || "14:00–15:30") + " · " + (m.eposterEvaluationVenue || "Pre-function area") });
       rows.push({ label: "Free Paper Presentation", date: m.freePaperDate || "31 October 2027", note: (m.freePaperTime || "11:00–12:30") + " · " + (m.freePaperVenue || "Salon 1–2") });
     }
     return rows;
@@ -415,6 +415,10 @@
     fillList("callCombinedFreePaperPrizes", freeInfo.prizes);
     fillList("callEposterSpecs", info.specs);
     fillList("callEposterAwards", info.awards);
+    fillList("callEposterGuidelines", D.submissionInfo.sharedGuidelines);
+    fillList("callEposterReviewCriteria", D.submissionInfo.sharedReview);
+    var submitBtn = doc.getElementById("callEposterSubmitBtn");
+    if (submitBtn) submitBtn.textContent = "Online submission \u2014 opens " + m.abstractOpen;
     paintDateTable("callEposterDates", dateRows("eposter"));
   }
 
@@ -439,11 +443,17 @@
 
   function renderCallFormalProject() {
     var info = D.formalProjectCallInfo;
+    var call = D.formalProjectCall || {};
     var lede = doc.getElementById("callFormalLede");
     if (lede) lede.textContent = info.intro;
     fillList("formalCallEligibility", info.eligibility);
     fillList("formalCallProcess", info.process);
     fillList("formalCallNotes", info.notes);
+    paintDateTable("formalCallDates", (call.dates || []).map(function (d) {
+      return { label: d.label, date: d.date, note: d.note };
+    }));
+    var contact = doc.getElementById("formalCallContact");
+    if (contact && call.contact) contact.textContent = call.contact;
   }
 
   function renderFormalProject() {
@@ -474,8 +484,8 @@
         ["Abstract submission deadline", m.abstractDeadline, "Main call closes"],
         ["Notification of acceptance", m.notification, "By email to presenting authors"],
         ["Presenting author registration deadline", m.presentingDeadline, "Required to remain in the programme"],
-        ["e-Poster file deadline", m.eposterFileDeadline, "For all accepted e-Posters"],
-        ["e-Poster gallery opens", m.eposterGalleryDate, "Website and event app"]
+        ["ePoster file deadline", m.eposterFileDeadline, "For all accepted ePosters"],
+        ["ePoster gallery opens", m.eposterGalleryDate, "Website and event app"]
       ];
       tbody.innerHTML = rows.map(function (r) {
         return "<tr><td>" + esc(r[0]) + "</td><td><strong>" + esc(r[1]) + "</strong></td><td>" + esc(r[2]) + "</td></tr>";
@@ -986,7 +996,7 @@
         '<iframe src="https://www.google.com/maps/embed?origin=mfe&amp;pb=!1m3!2m1!1sHopewell+Hotel,+15+Kennedy+Road,+Wan+Chai,+Hong+Kong!6i16" title="Google map showing Hopewell Hotel, 15 Kennedy Road, Wan Chai" style="display:block;width:100%;aspect-ratio:800/520;border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>' +
       '</div>' +
         '<div class="card card--soft" style="margin-top:18px"><h3>Before you write</h3><p class="muted" style="font-size:14px">Many questions are answered on the programme and registration pages.</p><ul class="checklist" style="font-size:14px">' +
-        '<li><a href="call-for-abstracts.html">Call for Submission</a></li><li><a href="registration.html">Registration and workshops</a></li>' +
+        '<li><a href="call-for-eposter.html">Call for Submission</a></li><li><a href="registration.html">Registration and workshops</a></li>' +
         '<li><a href="sponsorship-exhibition.html">Sponsorship package</a></li><li><a href="meeting-information.html">Venue and travel</a></li></ul></div></div></div>';
   }
 
