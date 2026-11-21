@@ -6,7 +6,7 @@ window.ASM_DATA_COMMITTEE = {
       "hospital": "Tuen Mun Hospital"
     },
     "vice": {
-      "name": "",
+      "name": "(TBC)",
       "hospital": "Prince of Wales Hospital"
     },
     "treasurer": {
@@ -85,7 +85,7 @@ window.ASM_DATA_COMMITTEE = {
         "note": "Nominated by the Hong Kong College of Anaesthesiologists"
       },
       {
-        "name": "",
+        "name": "(TBC)",
         "note": "Nominated by the Society of Anaesthetists of Hong Kong"
       },
       {
