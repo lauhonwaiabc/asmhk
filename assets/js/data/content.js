@@ -246,16 +246,12 @@ window.ASM_DATA_CONTENT = {
     "intro": "Every abstract that meets the guidelines is accepted and displayed as an ePoster. At submission, choose either ePoster only or ePoster plus consideration for the Free Paper Presentation. On Day 1, judges review all accepted ePosters and shortlist presenters for the Day 2 Free Paper Presentation.",
     "formats": [
       {
-        "name": "ePoster Presentation",
-        "detail": "A single-page PDF displayed in the online gallery, app and on-site ePoster area. All submissions that meet the guidelines are accepted."
+        "name": "ePoster only",
+        "detail": "Your abstract is accepted and displayed as an ePoster in the website gallery, app and on-site ePoster area. It is not considered for the Free Paper Presentation."
       },
       {
         "name": "ePoster + Free Paper consideration",
-        "detail": "Your accepted ePoster is reviewed by judges on Day 1. If shortlisted, you present orally in the Day 2 Free Paper Presentation."
-      },
-      {
-        "name": "ePoster only",
-        "detail": "Your abstract is accepted and displayed as an ePoster, but it is not considered for the Free Paper Presentation."
+        "detail": "Your accepted ePoster is displayed in the gallery and reviewed by judges on Day 1. If shortlisted, you present in the Day 2 Free Paper Presentation."
       }
     ],
     "steps": [
