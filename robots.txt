@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://asmhk.org/sitemap.xml
